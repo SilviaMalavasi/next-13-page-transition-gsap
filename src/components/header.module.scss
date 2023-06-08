@@ -1,0 +1,25 @@
+.menu {
+  width: 100%;
+
+  ul {
+    display: flex;
+    padding: 0;
+    li {
+      color: blue;
+      text-decoration: none;
+      position: relative;
+      cursor: pointer;
+      list-style: none;
+      margin-right: 6rem;
+    }
+  }
+}
+.underline {
+  position: absolute;
+  top: auto;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: blue;
+}
